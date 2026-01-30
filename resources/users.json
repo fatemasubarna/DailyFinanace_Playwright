@@ -1,3 +1,52 @@
 [
-    
+  {
+    "firstName": "Osborne",
+    "lastName": "Nicolas",
+    "email": "user973@gmail.com",
+    "password": "LjfQP1iNjieZ7iO",
+    "phoneNumber": "01759088897",
+    "address": "99572 Gerhold Centers, Dhaka, Bangladesh",
+    "gender": "Male",
+    "acceptTerms": true
+  },
+  {
+    "firstName": "Hillard",
+    "lastName": "Morar",
+    "email": "user911@gmail.com",
+    "password": "KdAu7Ynz5zIKvqL",
+    "phoneNumber": "01745025935",
+    "address": "66478 Connelly Inlet, Dhaka, Bangladesh",
+    "gender": "Male",
+    "acceptTerms": true
+  },
+  {
+    "firstName": "Roger",
+    "lastName": "Schulist",
+    "email": "user725@gmail.com",
+    "password": "plFymm1crmbv5_F",
+    "phoneNumber": "01765355974",
+    "address": "24648 Armando Radial, Dhaka, Bangladesh",
+    "gender": "Male",
+    "acceptTerms": true
+  },
+  {
+    "firstName": "Rosalinda",
+    "lastName": "Heathcote",
+    "email": "user735@gmail.com",
+    "password": "rLNbXEBYKVCF9UD",
+    "phoneNumber": "01727824743",
+    "address": "685 Otho Plain, Dhaka, Bangladesh",
+    "gender": "Male",
+    "acceptTerms": true
+  },
+  {
+    "firstName": "Lupe",
+    "lastName": "Deckow",
+    "email": "user656@gmail.com",
+    "password": "0VYdbRoGcnM6Mkm",
+    "phoneNumber": "01783089151",
+    "address": "713 Pouros Lane, Dhaka, Bangladesh",
+    "gender": "Male",
+    "acceptTerms": true
+  }
 ]

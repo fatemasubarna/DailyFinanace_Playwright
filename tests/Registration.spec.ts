@@ -1,8 +1,23 @@
-import { test, expect } from '@playwright/test';
-import { RegistrationPage } from '../pages/RegistrationPage.pom';
-import { Gender, UserModel } from '../userModel/person.model';
+import { test, expect, Page } from '@playwright/test';
+import { RegistrationPage } from '../pages/RegistrationPage.pom.ts';
+import { Gender, UserModel } from '../userModel/person.model.ts';
 import { faker } from '@faker-js/faker';
-import { generateRandomNumber } from '../utils/utils';
+import { generateRandomNumber, saveJSONData } from '../utils/utils.ts';
+
+test.describe.serial(  "Admin Activity" , ()=> {
+
+    let page : Page;
+
+    test.beforeAll( async({browser}) => {
+
+        page = await browser.newPage();
+
+    } )
+
+
+    test.afterAll( async()=> {
+        await page.close();
+    } )
 
 
 test.describe('User Registration', () => {
@@ -10,7 +25,6 @@ test.describe('User Registration', () => {
     test('should register a new user successfully', async ({ page }) => {
         // 1️⃣ Navigate to app
         await page.goto('/');
-
         // 2️⃣ Create page object
         const registrationPage = new RegistrationPage(page);
 
@@ -28,11 +42,15 @@ test.describe('User Registration', () => {
 
         // 4️⃣ Act: perform registration
         await registrationPage.createUser(user);
+        saveJSONData(user, './resources/users.json');
 
         // 5️⃣ Assert: check registration success
         await expect(
             page.getByText(/registration successful|success/i)
         ).toBeVisible();
+
+
     });
 
+});
 });

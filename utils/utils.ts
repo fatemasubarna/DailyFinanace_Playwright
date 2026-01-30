@@ -1,5 +1,6 @@
 import fs from 'fs';
 import { UserModel } from '../userModel/person.model';
+import{ ItemModel } from '../userModel/item.model'; 
 
 export function generateRandomNumber( min : number , max : number ){
     const randomNumber = Math.random()* (max-min) + min;

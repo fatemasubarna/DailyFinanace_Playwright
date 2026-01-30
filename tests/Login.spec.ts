@@ -5,7 +5,7 @@ import { getLatestUser } from '../utils/utils.ts';
 import { UserModel } from '../userModel/person.model.ts';
 
 
-test.only( "User can Login Successfully" , async ( {page} )=>{
+test( "User can Login Successfully" , async ( {page} )=>{
 
    await page.goto("/");
 

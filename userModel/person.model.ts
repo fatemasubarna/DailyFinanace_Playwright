@@ -5,7 +5,7 @@ export enum Gender {
     Female = "Female",
     Other = "Other"
 }
-
+ 
 export interface UserModel {
     firstName: string;
     lastName: string;

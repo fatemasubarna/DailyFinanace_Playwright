@@ -12,7 +12,7 @@ test( "User can Login Successfully" , async ( {page} )=>{
    const latestUser : UserModel = getLatestUser("./resources/users.json");
     const loginPage = new LoginPage(page);
     await loginPage.login( latestUser.email  , latestUser.password );
-    await page.pause();
+    //await page.pause();
 
 
 }  )

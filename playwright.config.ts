@@ -34,21 +34,27 @@ export default defineConfig({
     //   testMatch: 'Registration.spec.ts',
     // },
 
-    {
-      name: 'login',
-      testMatch: 'Login.spec.ts',
-      //dependencies: ['registration'],
-    },
+    // {
+    //   name: 'login',
+    //   testMatch: 'Login.spec.ts',
+    //   //dependencies: ['registration'],
+    // },
     // {
     //   name: 'additem',
     //   testMatch: 'AddItem.spec.ts',
     //   dependencies: ['login'],
     // },
 
-    {
-      name: 'profile update',
-      testMatch: 'Profile.spec.ts',
-      dependencies: ['login'],
+    // {
+    //   name: 'profile update',
+    //   testMatch: 'Profile.spec.ts',
+    //   dependencies: ['login'],
+    // },
+
+     {
+      name: 'Reset Password',
+      testMatch: 'ResetPassword.spec.ts',
+      //dependencies: ['login'],
     },
     
     // Remove or comment out the chromium project entirely

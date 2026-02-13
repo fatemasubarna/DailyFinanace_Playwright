@@ -208,5 +208,15 @@
     "address": "45798 Kennedy Glen, Dhaka, Bangladesh",
     "gender": "Male",
     "acceptTerms": true
+  },
+  {
+    "firstName": "Justina",
+    "lastName": "Murphy",
+    "email": "user711@gmail.com",
+    "password": "NewPass8008",
+    "phoneNumber": "01746825735",
+    "address": "45798 Kennedy Glen, Dhaka, Bangladesh",
+    "gender": "Male",
+    "acceptTerms": true
   }
 ]

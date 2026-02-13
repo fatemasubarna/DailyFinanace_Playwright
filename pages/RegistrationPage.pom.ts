@@ -9,6 +9,8 @@ export class RegistrationPage {
     await this.page.getByRole('link', { name: /register/i }).click();
   }
 
+  // fill up the data
+
   async fillFirstName(firstName: string) {
     await this.page.getByRole('textbox', { name: /first name/i }).fill(firstName);
   }
